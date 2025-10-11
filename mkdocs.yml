@@ -1,0 +1,30 @@
+site_name: Plateforme Choix de Cours — Phase 1
+site_description: Analyse des besoins, specification testable et modelisation (DIRO/UdeM)
+theme:
+  name: material
+  features:
+    # - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - toc.follow
+    - content.tabs.link
+    - content.code.copy
+nav:
+  - Accueil: index.md
+  - Cadre du projet: cadre.md
+  - Exigences:
+    - Fonctionnelles: exigences_fonctionnelles.md
+    - Non fonctionnelles: exigences_non_fonctionnelles.md
+  - Cas d'utilisation:
+    - Diagramme global: cas_utilisation.md
+    - Spec. detaillees (5): cas_details.md
+    - Diagrammes d'activites: activites.md
+  - Architecture (C4):
+    - Niveau 1 - Contexte: c4_l1.md
+    - Niveau 2 - Conteneurs: c4_l2.md
+  - Decisions & hypotheses: decisions.md
+  - Glossaire: glossaire.md
+  - Risques & mitigation: risques.md
+  - Materiel, stockage & integration: materiel_stockage_integration.md
+  - Echeancier & equipe: equipe_echeancier.md
+  - Tracabilite des exigences: tracabilite.md
